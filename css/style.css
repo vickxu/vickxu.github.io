@@ -4,11 +4,24 @@ header {
   padding:50px;
 }
 
+h1.about {
+	font-family: 'Rubik', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+	text-align: center;
+	color: gray;
+}
+
 h1.header-text{
   font-family: 'Rubik', sans-serif;
   font-size: 36px;
   font-weight: bold;
   text-align: center;
+}
+
+.singleapp a {
+	text-align:center;
+  color:purple;
 }
 
 a {
@@ -37,8 +50,9 @@ h2 {
 }
  /*Single app*/
 
- .singleapp {
-   margin-left:20px;
+.singleapp {
+	 margin-left:50px;
+	 padding:10px;
  }
 
 .axis line,
@@ -68,4 +82,69 @@ h2 {
 
 .bar {
 	fill: #93bebf;
+}
+
+
+/*nav bar*/
+.mainNav {
+  overflow: hidden;
+	background-color: lightgray;
+	text-align:center;
+}
+
+.mainNav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.mainNav a:hover {
+  background-color: #ddd;
+  color: violet;
+}
+
+.mainNav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+/*about*/
+#about-text {
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color:darkgray;
+}
+
+#design-text{
+	font-size: 20px;
+	font-weight: 10px;
+	color: orange;
+}
+
+#create-text{
+	font-size: 20px;
+	font-weight: 10px;
+	color: blue;
+}
+
+#poss-text{
+	font-size: 20px;
+	font-weight: 10px;
+	color: green;
+}
+
+#intro-list{
+	padding:20px;
+}
+
+li a .list-text {
+	display:none;
+}
+
+.list-text {
+	text-align: left;
 }
