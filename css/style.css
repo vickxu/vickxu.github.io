@@ -200,6 +200,11 @@ html {
 	margin-top:0px;
 }
 /*about*/
+#headshot {
+	height: 400px;
+	width: 400px;
+	padding: 30px;
+}
 #about-text {
 	font-family: 'Rubik', sans-serif;
 	font-size: 18px;
@@ -275,3 +280,4 @@ li a .list-text {
 	padding-left: 200px;
 	padding-right:200px;
 }
+
