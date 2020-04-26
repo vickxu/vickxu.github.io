@@ -4,6 +4,15 @@
   zoom: 1.0 ;
 }
 
+@font-face {
+    font-family: 'ron_advice';
+    src: url('https://vickxu.github.io/css/fonts/ronadvice-regular-webfont.woff2') format('woff2'),
+         url('https://vickxu.github.io/css/fonts/ronadvice-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 header {
   background-color:#303944;
 	padding:10%;
