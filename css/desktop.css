@@ -10,24 +10,24 @@ header {
 }
 
 h1.about {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'ron_advice', sans-serif;
   font-size: 36px;
-  font-weight: bold;
+  font-weight: ;
 	text-align: center;
 	color: #303944;
 }
 
 h1.header-text{
-  font-family: 'Roboto', sans-serif;
-  font-size: 80px;
-  font-weight: bold;
+  font-family: 'ron_advice', sans-serif;
+  font-size: 100px;
+  font-weight: ;
   text-align: center;
 }
 
 h1.header-text2{
-  font-family: 'Roboto', sans-serif;
-  font-size: 50px;
-  font-weight: bold;
+  font-family: 'ron_advice', sans-serif;
+  font-size: 80px;
+  font-weight: ;
   text-align: center;
 }
 
@@ -50,11 +50,11 @@ a:hover .project-title {
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'ron_advice', sans-serif;
 }
 
 h1 {
-	font-size: 36px;
+	font-size: 40px;
 	color: white;
 	margin-top: 40px;
 }
@@ -101,6 +101,7 @@ html {
  height: 80px;
  width: 100px;
 }
+
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
@@ -146,17 +147,17 @@ html {
 .project-title {
 	text-align: left;
 	margin-left:30px;
-	font-size: 25px;
+	font-size: 30px;
 	color: gray;
 }
 .project-description {
 	text-align: left;
 	margin-left:30px;
-	font-size: 18px;
+	font-size: 20px;
 	color: darkgray;
 }
 .projects {
-	margin-bottom:50px;
+	margin-bottom:25px;
 }}
 
 /*nav bar*/
@@ -175,7 +176,7 @@ html {
   text-align: center;
   padding: 1% 2%;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .mainNav a:hover {
@@ -196,13 +197,13 @@ html {
 }
 /*about*/
 #headshot {
-	height: 50%;
-	width: 50%;
+	height: 30%;
+	width: 30%;
 	padding: 2%;
 }
 #about-text {
-	font-family: 'Rubik', sans-serif;
-	font-size: 16px;
+	font-family: 'ron_advice', sans-serif;
+	font-size: 30px;
 	font-weight: ;
 	text-align: center;
 	color: #303944;

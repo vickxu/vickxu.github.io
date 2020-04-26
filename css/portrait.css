@@ -4,22 +4,13 @@
   zoom: 1.0 ;
 }
 
-@font-face {
-    font-family: 'ron_advice';
-    src: url('https://vickxu.github.io/css/fonts/ronadvice-regular-webfont.woff2') format('woff2'),
-         url('https://vickxu.github.io/css/fonts/ronadvice-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 header {
   background-color:#303944;
 	padding:10%;
 }
 
 h1.about {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'ron_advice', sans-serif;
   font-size: 25px;
   font-weight: bold;
 	text-align: left;
@@ -27,15 +18,15 @@ h1.about {
 }
 
 h1.header-text{
-  font-family: 'Roboto', sans-serif;
-  font-size: 40px;
+  font-family: 'ron_advice', sans-serif;
+  font-size: 50px;
   font-weight: bold;
   text-align: center;
 }
 
 h1.header-text2{
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+  font-family: 'ron_advice', sans-serif;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
 }
@@ -59,7 +50,7 @@ a:hover .project-title {
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'ron_advice', sans-serif;
 }
 
 h1 {
@@ -218,7 +209,7 @@ html {
 	padding: 10%;
 }
 #about-text {
-	font-family: 'Rubik', sans-serif;
+	font-family: 'ron_advice', sans-serif;
 	font-size: 14px;
 	font-weight:;
 	text-align: left;
