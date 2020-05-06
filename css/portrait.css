@@ -11,7 +11,7 @@ header {
 
 h1.about {
 	font-family: 'ron_advice', sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
 	text-align: left;
 	color: #303944;
@@ -50,7 +50,7 @@ a:hover .project-title {
 }
 
 body {
-	font-family: 'ron_advice', sans-serif;
+	font-family: 'proxima nova', sans-serif;
 }
 
 h1 {
@@ -209,7 +209,7 @@ html {
 	padding: 10%;
 }
 #about-text {
-	font-family: 'ron_advice', sans-serif;
+	font-family: 'proxima nova', sans-serif;
 	font-size: 14px;
 	font-weight:;
 	text-align: left;

@@ -11,7 +11,7 @@ header {
 
 h1.about {
 	font-family: 'ron_advice', sans-serif;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: ;
 	text-align: center;
 	color: #303944;
@@ -50,7 +50,7 @@ a:hover .project-title {
 }
 
 body {
-	font-family: 'ron_advice', sans-serif;
+	font-family: 'proxima nova', sans-serif;
 }
 
 h1 {
@@ -147,13 +147,13 @@ html {
 .project-title {
 	text-align: left;
 	margin-left:30px;
-	font-size: 30px;
+	font-size: 25px;
 	color: gray;
 }
 .project-description {
 	text-align: left;
 	margin-left:30px;
-	font-size: 20px;
+	font-size: 15px;
 	color: darkgray;
 }
 .projects {
@@ -176,7 +176,8 @@ html {
   text-align: center;
   padding: 1% 2%;
   text-decoration: none;
-  font-size: 24px;
+  font-family: 'proxima nova', sans-serif;
+  font-size: 18px;
 }
 
 .mainNav a:hover {
@@ -194,6 +195,8 @@ html {
 	text-align:center;
 	padding-top:0;
 	margin-top:0;
+	font-family: 'proxima nova', sans-serif;
+	font-size: 24px;
 }
 /*about*/
 #headshot {
@@ -202,8 +205,8 @@ html {
 	padding: 2%;
 }
 #about-text {
-	font-family: 'ron_advice', sans-serif;
-	font-size: 30px;
+	font-family: 'proxima nova', sans-serif;
+	font-size: 15px;
 	font-weight: ;
 	text-align: center;
 	color: #303944;
