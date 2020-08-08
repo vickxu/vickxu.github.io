@@ -10,23 +10,23 @@ header {
 }
 
 h1.about {
-	font-family: 'ron_advice', sans-serif;
-  font-size: 40px;
+	font-family: 'Avenir', sans-serif;
+  font-size: 50px;
   font-weight: ;
 	text-align: center;
 	color: #303944;
 }
 
 h1.header-text{
-  font-family: 'ron_advice', sans-serif;
-  font-size: 100px;
+  font-family: 'Avenir', sans-serif;
+  font-size: 70px;
   font-weight: ;
   text-align: center;
 }
 
 h1.header-text2{
-  font-family: 'ron_advice', sans-serif;
-  font-size: 80px;
+  font-family: 'Avenir', sans-serif;
+  font-size: 50px;
   font-weight: ;
   text-align: center;
 }
@@ -54,9 +54,9 @@ body {
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 25px;
 	color: white;
-	margin-top: 40px;
+	margin-top: 25px;
 }
 
 h2 {
@@ -85,14 +85,14 @@ html {
 .arrow {
 	text-align: center;
 	margin: 30px;
-	margin-top:80px;
+	margin-top:40px;
   margin: 8% 0;
 }
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
 	animation: bounce 2s infinite;
-	margin-top: 80px;
+	margin-top: 40px;
 	margin-bottom: 0px;
   
 }
