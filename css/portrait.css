@@ -47,7 +47,7 @@ a:hover{
 }
 
 a:hover .project-title {
-	color:violet;
+	color:purple;
 }
 
 body {
@@ -167,14 +167,14 @@ html {
 	text-align: left;
 	margin-left:5%;
 	font-size: 20px;
-	color: gray;
+	color: #303944;
 }
 
 .project-description {
 	text-align: left;
 	margin-left:5%;
 	font-size: 15px;
-	color: darkgray;
+	color: #303944;
 }
 
 .projects {
@@ -211,7 +211,7 @@ html {
 
 .mainNav a:hover {
   background-color: #ddd;
-  color: violet;
+  color: purple;
 }
 
 .mainNav a.active {
