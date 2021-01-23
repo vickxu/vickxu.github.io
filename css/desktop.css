@@ -9,6 +9,7 @@ header {
 	padding:30px;
 }
 
+
 h1.about {
 	font-family: 'Avenir', sans-serif;
   font-size: 50px;
@@ -162,7 +163,8 @@ html {
 
 /*nav bar*/
 .mainNav{
-  overflow: hidden;
+  	overflow: hidden;
+
 	background-color: #303944;
 	text-align:center;
 	padding:0px;
@@ -176,7 +178,7 @@ html {
   text-align: center;
   padding: 1% 2%;
   text-decoration: none;
-  font-family: 'proxima nova', sans-serif;
+  font-family: 'Avenir', sans-serif;
   font-size: 18px;
 }
 
@@ -233,16 +235,22 @@ html {
 	color: green;
 }
 
+div.intro {
+	font-family: 'Avenir', sans-serif;
+}
+
 #intro-list{
 	padding:20px;
+	font-family: 'Avenir', sans-serif;
 }
 
 li a .list-text {
 	display:none;
-	font-family: 'Avenir', sans-serif;
+
 }
 
 .list-text {
+	font-family: 'Avenir', sans-serif;
 	text-align: left;
 	margin-left: 15%;
 	margin-right: 15%;
