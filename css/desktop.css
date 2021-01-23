@@ -239,6 +239,7 @@ html {
 
 li a .list-text {
 	display:none;
+	font-family: 'Avenir', sans-serif;
 }
 
 .list-text {
