@@ -1,0 +1,303 @@
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+ /* main page header */
+header {
+	padding:1%;
+}
+
+h1.header-text{
+  font-family: 'Avenir', sans-serif;
+  font-size: 70px;
+  color: #303944;
+  text-align: center;
+}
+
+h1.header-text2{
+  font-family: 'Avenir', sans-serif;
+  font-size: 50px;
+  color: #303944;
+  text-align: center;
+}
+
+h1.about {
+	font-family: 'Avenir', sans-serif;
+    font-size: 40px;
+	text-align: center;
+	color: #303944;
+}
+
+
+.singleapp a {
+	text-align:center;
+  	color:#17BEBB;
+}
+
+a {
+  color:#17BEBB;
+}
+
+a:hover{
+	color:purple;
+	transition: color 0.3s;
+	text-decoration: none;
+}
+
+a:hover .project-title {
+	color:violet;
+}
+
+body {
+	font-family: 'Avenir', sans-serif;
+}
+
+h1 {
+	font-size: 25px;
+	color: white;
+	margin-top: 25px;
+}
+
+h2 {
+	color: #94a97a;
+	font-size: 24px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+#purple {
+	color: #8b80f9;
+}
+
+#pink {
+	color: #ff595e;
+}
+
+#yellow {
+	color: #ffca3a;
+}
+
+#green {
+	color: #8ac926;
+}
+
+.row {
+	margin-left:0px;
+	margin-top: 40px;
+}
+
+.scroll {
+	scroll-behavior: smooth;
+	
+}
+
+html {
+	scroll-behavior: smooth;
+	transition: 3s;
+}
+
+/*arrow*/
+.arrow {
+	text-align: center;
+	margin: 30px;
+	margin-top:40px;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+	animation: bounce 2s infinite;
+	margin-top: 40px;
+	margin-bottom: 0px;
+  
+}
+
+.fa-arrow-down {
+ height: 80px;
+ width: 100px;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+ /*Single app*/
+.singleapp {
+	 /*margin-left:50px;*/
+	 padding:10px;
+ }
+ .crop {
+	width: 340px;
+	height: 240px;
+	align-content: center;
+	overflow: hidden;
+}
+.crop img {
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 25px;
+	align-content: center;
+}
+.crop img:hover {
+	width: 310px;
+	height: 210px;
+	margin: 10px;
+	border-radius: 25px;
+	padding: 10px;
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	align-content: center;
+}
+.project-title {
+	text-align: left;
+	margin-left:30px;
+	font-size: 25px;
+	color: gray;
+}
+.project-description {
+	text-align: left;
+	margin-left:30px;
+	font-size: 15px;
+	color: darkgray;
+}
+.projects {
+	margin-bottom:25px;
+}}
+
+/*nav bar*/
+.mainNav{
+  	overflow: hidden;
+	text-align:center;
+	color: #303944;
+}
+
+.mainNav li {
+	display:inline-block;
+	margin-top: 2%;
+	padding-left: 5%;
+	padding-right:  5%;
+}
+
+.mainNav a {
+  padding: 1% 2%;
+  padding-top: 10%
+  text-decoration: none;
+  font-family: 'Avenir', sans-serif;
+  font-size: 18px;
+}
+
+.mainNav a:hover {
+  color: violet;
+}
+
+.mainNav a.active {
+  color: black;
+}
+
+#header-about {
+	overflow: hidden;
+	text-align:center;
+	padding-top:0;
+	margin-top:0;
+	font-family: 'Avenir', sans-serif;
+	font-size: 24px;
+}
+
+/*about*/
+#headshot {
+	height: 30%;
+	width: 30%;
+	padding: 2%;
+}
+#about-text {
+	font-family: 'Avenir', sans-serif;
+	font-size: 15px;
+	font-weight: ;
+	text-align: center;
+	color: #303944;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-bottom: 0%;
+}
+
+
+div.intro {
+	font-family: 'Avenir', sans-serif;
+}
+
+#intro-list{
+	padding:1%;
+	font-weight: bold;
+	font-family: 'Avenir', sans-serif;
+}
+
+li a .list-text {
+	display:inline-block;
+	padding-left:100%;
+
+}
+
+ul {
+	padding-inline-start: 10%;
+	padding-inline-end:10;
+}
+
+.short-list-text {
+	font-family: 'Avenir', sans-serif;
+	text-align: left;
+	display:inline-block;
+	
+}
+
+.list-text {
+	font-family: 'Avenir', sans-serif;
+	text-align: left;
+	display:inline-block;
+}
+
+/* project pages */
+.center {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.project_img {
+	width: 500px;
+	height: 400px;
+	align-content: center;
+	overflow: hidden;
+}
+
+.project_img img  {
+	width: 500px;
+	height: 400px;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 25px;
+	align-content: center;
+}
+
+.project_headings {
+	padding-left: 200px;
+	padding-right:200px;
+	font-size: 20px;
+}
+
+.project_text {
+	padding-left: 200px;
+	padding-right:200px;
+}
+
