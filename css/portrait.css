@@ -5,44 +5,45 @@
 }
 
 header {
-  background-color:#303944;
 	padding:10%;
+}
+
+h1.header-text{
+  font-family: 'Avenir', sans-serif;
+  font-size: 40px;
+  color: #303944;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1.header-text2{
+  font-family: 'Avenir', sans-serif;
+  font-size: 20px;
+  color: #303944;
+  text-align: center;
 }
 
 h1.about {
 	font-family: 'avenir', sans-serif;
   font-size: 20px;
   font-weight: bold;
-	text-align: left;
+	text-align: center;
 	color: #303944;
-}
-
-h1.header-text{
-  font-family: 'avenir', sans-serif;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-}
-
-h1.header-text2{
-  font-family: 'avenir', sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
 }
 
 .singleapp a {
 	text-align:center;
-  color:purple;
+  	color:#17BEBB;
 }
 
 a {
-  color:#E37BC8;
+  color:#17BEBB;
 }
 
 a:hover{
-	color:violet;
-	transition: color 0.3s
+	color:purple;
+	transition: color 0.3s;
+	text-decoration: none;
 }
 
 a:hover .project-title {
@@ -50,11 +51,11 @@ a:hover .project-title {
 }
 
 body {
-	font-family: 'proxima nova', sans-serif;
+	font-family: 'Avenir', sans-serif;
 }
 
 h1 {
-	font-size: 36px;
+	font-size: 25px;
 	color: white;
 	margin-top: 10%;
 }
@@ -64,6 +65,22 @@ h2 {
 	font-size: 24px;
 	margin-top: 5%;
 	margin-bottom: 20%;
+}
+
+#purple {
+	color: #8b80f9;
+}
+
+#pink {
+	color: #ff595e;
+}
+
+#yellow {
+	color: #ffca3a;
+}
+
+#green {
+	color: #8ac926;
 }
 
 .row {
@@ -80,8 +97,8 @@ html {
 	scroll-behavior: smooth;
 	transition: 3s;
 }
-/*arrow*/
 
+/*arrow*/
 .arrow {
 	text-align: center;
 	margin: 30px;
@@ -114,7 +131,6 @@ html {
 }
 
  /*Single app*/
-
 .singleapp {
 	 /*margin-left:50px;*/
 	 padding:10%;
@@ -147,14 +163,12 @@ html {
 	align-content: center;
 }
 
-
 .project-title {
 	text-align: left;
 	margin-left:5%;
 	font-size: 20px;
 	color: gray;
 }
-
 
 .project-description {
 	text-align: left;
@@ -170,21 +184,30 @@ html {
 
 /*nav bar*/
 .mainNav{
-  overflow: hidden;
-	background-color: #303944;
+   overflow: hidden;
 	text-align:center;
+	color: #303944;
 	padding:0px;
-	margin-left:0;
+}
+
+.mainNav li {
+	display:inline-block;
+	margin-top: 2%;
+	padding-left: 5%;
+	padding-right:  5%;
 }
 
 .mainNav a {
-  float: left;
-  background-color: #303944;
+  overflow: hidden;
   text-align: center;
-  padding: 5% 5%;
   text-decoration: none;
+  padding: 1% 2%;
+  padding-top: 10%
+  font-family: 'Avenir', sans-serif;
   font-size: 14px;
+  color: #303944;
 }
+
 
 .mainNav a:hover {
   background-color: #ddd;
@@ -195,46 +218,34 @@ html {
   background-color: #4CAF50;
   color: white;
 }
+
 #header-about {
 	overflow: hidden;
-	background-color: #303944;
 	text-align:center;
 	padding-top:0px;
 	margin-top:0px;
+	font-family: 'Avenir', sans-serif;
+	font-size: 24px;
 }
+
 /*about*/
 #headshot {
 	height: 80%;
 	width: 80%;
 	padding: 10%;
 }
+
 #about-text {
-	font-family: 'proxima nova', sans-serif;
+	font-family: 'Avenir', sans-serif;
 	font-size: 14px;
-	font-weight:;
-	text-align: left;
+	text-align: center;
 	color: #303944;
 	padding-left: 0;
 	padding-right: 0;
-	padding-bottom: 100px;
 }
 
-#design-text{
-	font-size: 20px;
-	font-weight: 10px;
-	color: darkorange;
-}
-
-#create-text{
-	font-size: 20px;
-	font-weight: 10px;
-	color: blue;
-}
-
-#poss-text{
-	font-size: 20px;
-	font-weight: 10px;
-	color: green;
+div.intro {
+	font-family: 'Avenir', sans-serif;
 }
 
 #intro-list{
@@ -245,13 +256,23 @@ li a .list-text {
 	display:none;
 }
 
-.list-text {
+.short-list-text {
+	font-family: 'Avenir', sans-serif;
 	text-align: left;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.list-text {
+	font-family: 'Avenir', sans-serif;
+	text-align: left;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 /* project pages */
 .center {
-	display: block;
+  display: block;
   margin-left: 0;
   margin-right: 0;
   width: 100%;

@@ -159,6 +159,7 @@ html {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	align-content: center;
 }
+
 .project-title {
 	text-align: left;
 	margin-left:30px;
@@ -173,14 +174,13 @@ html {
 }
 .projects {
 	margin-bottom:25px;
-}}
+}
 
 /*nav bar*/
 .mainNav{
   	overflow: hidden;
 	text-align:center;
 	color: #303944;
-	position: fixed;
 }
 
 .mainNav li {
@@ -219,8 +219,9 @@ html {
 #headshot {
 	height: 20%;
 	width: 20%;
-	padding: 2%;
+	padding: 1%;
 }
+
 #about-text {
 	font-family: 'Avenir', sans-serif;
 	font-size: 15px;
@@ -231,7 +232,6 @@ html {
 	padding-right: 0%;
 	padding-bottom: 0%;
 }
-
 
 div.intro {
 	font-family: 'Avenir', sans-serif;
@@ -263,7 +263,7 @@ li a .list-text {
 
 /* project pages */
 .center {
-display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
