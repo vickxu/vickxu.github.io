@@ -57,6 +57,17 @@ h1.about {
 	color: #303944;
 }
 
+@keyframes name {
+  0% {color: #303944;}
+  100% {color:#17BEBB;}
+}
+
+.change {
+	color:#303944;
+	animation-name: name;
+   animation-duration: 4s;
+   animation-fill-mode: forwards;
+}
 
 .singleapp a {
 	text-align:center;
@@ -93,18 +104,50 @@ h2 {
 /* text colours */
 #purple {
 	color: #8b80f9;
+	animation-name: purple;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+}
+
+@keyframes purple {
+  0% {color: #303944;}
+  100% {color:#8b80f9;}
 }
 
 #pink {
 	color: #ff595e;
+	animation-name: name;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+}
+
+@keyframes pink {
+  0% {color: #303944;}
+  100% {color:#ff595e;}
 }
 
 #yellow {
 	color: #ffca3a;
+	animation-name: yellow;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+}
+
+@keyframes yellow {
+  0% {color: #303944;}
+  100% {color:#ffca3a;}
 }
 
 #green {
 	color: #8ac926;
+	animation-name: green;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
+}
+
+@keyframes green {
+  0% {color: #303944;}
+  100% {color:#8ac926;}
 }
 
 .row {
@@ -116,7 +159,6 @@ h2 {
 	scroll-behavior: smooth;
 	
 }
-
 
 /*arrow*/
 .arrow {
