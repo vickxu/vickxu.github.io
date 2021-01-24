@@ -25,6 +25,10 @@ body {
   filter: none;
 }
 
+#filler {
+	padding-bottom:200px;
+}
+
  /* main page header */
 header {
 	padding:1%;
@@ -43,7 +47,6 @@ h1.header-text2{
   font-size: 50px;
   color: #303944;
   text-align: center;
-  padding-bottom:200px;
 
 }
 
@@ -267,15 +270,15 @@ li a .list-text {
 .short-list-text {
 	font-family: 'Avenir', sans-serif;
 	text-align: left;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 .list-text {
 	font-family: 'Avenir', sans-serif;
 	text-align: left;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 /* project pages */
