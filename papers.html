@@ -1,102 +1,101 @@
 <!doctype html>
 <html>
+
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164604715-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164604715-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-164604715-1');
 </script>
-
-	<meta charset="utf-8">
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Vicky Xu</title>
-
-	<link href="https://fonts.googleapis.com/css?family=Neuton:300,400,400i,700,800" rel="stylesheet">
-
-	<link rel="icon" href="img/icon.png" type="image/x-icon">
-
-	<!-- CSS libraries -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-
-	<link rel="stylesheet" href="css/stylesheet.css">
-
-	<!-- Custom CSS code -->
-	<link rel="stylesheet"  media="screen and (min-width: 411px)" href="css/desktop2.css">
-
-	  <link rel="stylesheet" media="screen and (max-width: 410px)" href="css/portrait.css">
-	  <!-- <link rel="stylesheet" media="screen and (min-width: 361px) and (max-width: 480px)" href="landscape.css"> -->
-
-
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vicky Xu</title>
+    <link href="https://fonts.googleapis.com/css?family=Neuton:300,400,400i,700,800" rel="stylesheet">
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <!-- CSS libraries -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <!-- Custom CSS code -->
+    <link rel="stylesheet" media="screen and (min-width: 411px)" href="css/desktop2.css">
+    <link rel="stylesheet" media="screen and (max-width: 410px)" href="css/portrait.css">
+    <!-- <link rel="stylesheet" media="screen and (min-width: 361px) and (max-width: 480px)" href="landscape.css"> -->
 </head>
+
 <body>
+	<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+    </script>
 
-	<section id="header-about">
-      <ul class="mainNav">
-          <!-- <div class="collapse navbar-collapse" id="navbarResponsive"> -->
-              <li><a class="nav-link" href="about.html">About</a></li>
-             
-            
-              <li><a class="nav-link" href="projects.html">Projects</a></li>
-            
-             
-              <li><a class="nav-link" href="https://www.instagram.com/xudoodles" target="_blank">Drawings</a></li>
+    <section id="header-about">
+        <ul class="mainNav">
+            <li><a class="nav-link" href="about.html">About</a></li>
+            <li><a class="nav-link" href="projects.html">Projects</a></li>
+            <li><a class="nav-link" href="https://www.instagram.com/xudoodles" target="_blank">Drawings</a></li>
+            <li> <a id="theme-toggle">Invert</a></li>
+        </ul>
+    </section>
+    <section id="about-text">
+        <div class="container">
+            <h1 class="about">
+                Writings
+            </h1>
+            <div class="short-list-text">
+                <ul id="about-list">
+                    <li>
+                        <a href="https://dev.thecrimson.com/article/2019/3/10/the-silence-between-us/" target="_blank">The Silence Between Us:</a> A Reflection.
+                    </li>
+                    <li>
+                        <a href="https://scholar.harvard.edu/vickyzeranxu/publications/gold-rush-information-effects-fomc-announcements-gold-prices" target="_blank">Gold Rush on Information:</a> The Effects of FOMC Announcements on Gold Prices.
+                    </li>
+                    <li>
+                        <a href="https://scholar.harvard.edu/vickyzeranxu/publications/opening-happiness-coke%E2%80%99s-strategy-success-china-and-india" target="_blank">Opening Happiness:</a> Coke’s Strategy for Success in China and India.
+                    </li>
+                    <li>
+                        <a href="https://www.seas.harvard.edu/applied-mathematics/undergraduate-program/research-opportunities/senior-thesis" target="_blank">Finding the Informed:</a> How Public Pension Funds Choose Asset Managers.
+                    </li>
+                    <li>
+                        I want to write more, so here is also a <a href="https://whatawonderfulday.substack.com/p/coming-soon?r=aczb8&utm_campaign=post&utm_medium=email&utm_source=copy" target="_blank">piece of the internet</a> rrI have claimed.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    </div>
 
-              <!-- <li><a class="nav-link" href="papers.html">Writings</a></li> -->         
-              <!-- <a class="nav-link" href="contact.html">Contact</a> -->         
-      </ul>
-  </section>
-	
-<section id="about-text">
-	<div class="container" >
-
-	<h1 class="about">
-		Writings
-	</h1>
-
-<div class="short-list-text">
-	<ul id="about-list">
-		<li>
-			<a href="https://dev.thecrimson.com/article/2019/3/10/the-silence-between-us/" target="_blank">The Silence Between Us:</a> A Reflection.
-		</li>
-		<li>
-			<a href="https://scholar.harvard.edu/vickyzeranxu/publications/gold-rush-information-effects-fomc-announcements-gold-prices" target="_blank">Gold Rush on Information:</a> The Effects of FOMC Announcements on Gold Prices.
-		</li>
-		<li>
-			<a href="https://scholar.harvard.edu/vickyzeranxu/publications/opening-happiness-coke%E2%80%99s-strategy-success-china-and-india" target="_blank">Opening Happiness:</a> Coke’s Strategy for Success in China and India.
-		</li>
-		<li>
-			<a href="https://www.seas.harvard.edu/applied-mathematics/undergraduate-program/research-opportunities/senior-thesis" target="_blank">Finding the Informed:</a> How Public Pension Funds Choose Asset Managers.
-		</li>
-		<li>
-			I want to write more, so here is also a <a href="https://whatawonderfulday.substack.com/p/coming-soon?r=aczb8&utm_campaign=post&utm_medium=email&utm_source=copy" target="_blank">piece of the internet</a> rrI have claimed.
-		</li>
-		
-	</ul>
-</div>
-
-</div>
-</section>
-
-
-</div>
-
-	<!-- Load JS libraries -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/queue.v1.min.js"></script>
-	<script src="js/d3.min.js"></script>
-
-	<!-- Visualization objects -->
-	<script src="js/countvis.js"></script>
-
-	<!-- Load data, create visualizations -->
-	<script src="js/main.js"></script>
+    <!-- Theme toggle script -->
+    <script> 
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+    </script>
+    
+    <!-- Load JS libraries -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/queue.v1.min.js"></script>
+    <script src="js/d3.min.js"></script>
+    <!-- Visualization objects -->
+    <script src="js/countvis.js"></script>
+    <!-- Load data, create visualizations -->
+    <script src="js/main.js"></script>
 </body>
-</html>
 
+</html>

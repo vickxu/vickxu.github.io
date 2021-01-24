@@ -27,6 +27,15 @@
 </head>
 
 <body>
+	<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+    </script>
     <!-- Nav bar!-->
     <section id="header-about">
         <ul class="mainNav">
@@ -35,7 +44,7 @@
             <li><a class="nav-link" href="projects.html">Projects</a></li>
             <li><a class="nav-link" href="https://www.instagram.com/xudoodles" target="_blank">Drawings</a></li>
             <li><a class="nav-link" href="papers.html">Writings</a></li>
-            <!-- <a class="nav-link" href="contact.html">Contact</a> -->
+            <li> <a id="theme-toggle">Invert</a></li>
         </ul>
     </section>
     <section id="about-text">
@@ -119,6 +128,20 @@
         </div>
     </section>
     </div>
+
+    <!-- Theme toggle script -->
+    <script> 
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+    </script>
+    
     <!-- Load JS libraries -->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
