@@ -305,5 +305,9 @@ li a .list-text {
 	padding-right:200px;
 }
 
-
+.footer {
+	font-size:10px;
+	text-align: center;
+	padding: 1%;
+}
  
